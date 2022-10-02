@@ -24,7 +24,7 @@ export const CustomerList=()=>{
             <h1>Customer</h1>
             <Grid container spacing={3}>
                 <Grid item xs={6}>
-<TextField variant="outlined" value={name} onChange={(e)=>setName(e.target.value)} label="Name" fullWidth/>
+              <TextField variant="outlined" value={name} onChange={(e)=>setName(e.target.value)} label="Name" fullWidth/>
                 </Grid>
                 <Grid item xs={2}>
                     <TextField variant="outlined" value={mobile} onChange={(e)=>setMobile(e.target.value)} label="Mobile" fullWidth/>
